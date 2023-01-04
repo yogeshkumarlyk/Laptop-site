@@ -1,0 +1,32 @@
+.dropdown {
+    display: inline-block;
+    padding: 20px;
+  }
+.brand{
+  padding-left: 20px;
+}
+.brand:hover, .home:hover{
+  cursor: pointer;
+}
+.brandName:hover{
+  background-color: burlywood;
+  cursor: pointer;
+}
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #fff;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 30px 16px 20px 16px;
+    z-index: 1;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+.brandName{
+  padding: 10px;
+  border: 1px solid black;
+}

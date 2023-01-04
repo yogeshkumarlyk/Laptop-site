@@ -1,0 +1,635 @@
+{
+    "Stores": [
+        {
+            "pic":"./img/AC-TH-1.jpg",
+            "title": "ACER - NoteBook 6",
+            "brand":"acer",
+            "category":"touchscreen",
+            "RAM":"16 GB",
+            "price":"59999","graphics":"4 GB","storage":"HDD","battery":"Lithium ion battery","processor":"intel i5",
+            "model":"AC-TH-1"
+
+        },
+        {
+            "pic":"./img/AC-TH-2.jpg",
+            "title": "ACER - NoteBook 7",
+            "brand":"acer",
+            "category":"touchscreen",
+            "RAM":"32 GB",
+            "price":"59999","graphics":"4 GB","storage":"SSD","battery":"Lithium ion battery","processor":"intel i7",
+            "model":"AC-TH-2"
+        },
+        {
+            "pic":"./img/AC-TH-3.jfif",
+            "title": "ACER - NoteBook 8",
+            "brand":"acer",
+            "category":"touchscreen",
+            "RAM":"16 GB",
+            "price":"59999","graphics":"8 GB","storage":"SSD","battery":"Lithium ion battery","processor":"intel i7",
+            "model":"AC-TH-3"
+        },
+        {
+            "pic":"./img/HP-NT-1.png",
+            "title": "HP - NoteBook 1",
+            "brand":"hp",
+            "category":"notebook",
+            "RAM":"16 GB",
+            "price":"59999","graphics":"8 GB","storage":"HDD","battery":"Lithium ion battery","processor":"intel i9",
+            "model":"HP-NT-1",
+            "num":"0"
+
+        },
+        {
+            "pic":"./img/HP-NT-2.png",
+            "title": "HP - NoteBook 2",
+            "brand":"hp",
+            "category":"notebook",
+            "RAM":"16 GB",
+            "price":"59999","graphics":"4 GB","storage":"HDD","battery":"Lithium ion battery","processor":"intel i9",
+            "model":"HP-NT-2"
+        },
+        {
+            "pic":"./img/HP-NT-3.png",
+            "title": "HP - NoteBook 3",
+            "brand":"hp",
+            "category":"notebook",
+            "RAM":"32 GB",
+            "price":"59999","graphics":"4 GB","storage":"SSD","battery":"Lithium ion battery","processor":"ryzen 5",
+            "model":"HP-NT-3"
+        },
+        {
+            "pic":"./img/HP-NT-4.png",
+            "title": "HP - NoteBook 4",
+            "brand":"hp",
+            "category":"notebook",
+            "RAM":"32 GB",
+            "price":"59999","graphics":"16 GB","storage":"SSD","battery":"Lithium ion battery","processor":"ryzen 5",
+            "model":"HP-NT-4"
+        },
+        {
+            "pic":"./img/HP-GM-1.jpg",
+            "title": "HP - Pavillion Gaming 1",
+            "brand":"hp",
+            "category":"gaming",
+            "type":"Gaming",
+            "price":"59999","graphics":"16 GB","storage":"HDD","battery":"Lithium ion battery","processor":"ryzen 7",
+            "model":"HP-GM-1"
+        },
+        {
+            "pic":"./img/HP-GM-2.jpg",
+            "title": "HP - Pavillion Gaming 2",
+            "brand":"hp",
+            "category":"notebook",
+            "type":"gaming",
+            "price":"59999","graphics":"8 GB","storage":"HDD","battery":"Lithium ion battery","processor":"ryzen 7",
+            "model":"HP-GM-2"
+        },
+        {
+            "pic":"./img/HP-TH-1.png",
+            "title": "HP - Professional 1",
+            "brand":"hp",
+            "category":"touch",
+            "RAM":"16 GB",
+            "price":"59999","graphics":"8 GB","storage":"SSD","battery":"Lithium ion battery","processor":"ryzen 9",
+            "model":"HP-TH-1"
+        },
+        {
+            "pic":"./img/HP-TH-2.png",
+            "title": "HP - Professional 2",
+            "brand":"hp",
+            "category":"touch",
+            "RAM":"16 GB",
+            "price":"59999","graphics":"4 GB","storage":"SSD","battery":"Lithium ion battery","processor":"intel i5",
+            "model":"HP-TH-2"
+        },
+        {
+            "pic":"./img/MAC-1.jfif",
+            "title": "Apple MacBook PRO 1",
+            "brand":"apple",
+            "category":"macbook",
+            "RAM":"32 GB",
+            "price":"59999","graphics":"4 GB","storage":"HDD","battery":"Lithium ion battery","processor":"intel i5",
+            "model":"MAC-1"
+        },
+        {
+            "pic":"./img/MAC-2.jfif",
+            "title": "Apple MacBook PRO 2",
+            "brand":"apple",
+            "category":"macbook",
+            "RAM":"32 GB",
+            "price":"59999","graphics":"4 GB","storage":"HDD","battery":"Lithium ion battery","processor":"intel i7",
+            "model":"MAC-2"
+
+        },
+        {
+            "pic":"./img/MAC-3.jfif",
+            "title": "Apple MacBook PRO 3",
+            "brand":"apple",
+            "category":"macbook",
+            "RAM":"8 GB",
+            "price":"59999","graphics":"8 GB","storage":"SSD","battery":"Lithium ion battery","processor":"intel i7",
+            "model":"MAC-3"
+        },
+        {
+            "pic":"./img/MAC-4.jfif",
+            "title": "Apple MacBook PRO 4",
+            "brand":"apple",
+            "category":"macbook",
+            "RAM":"8 GB",
+            "price":"59999","graphics":"8 GB","storage":"SSD","battery":"Lithium ion battery","processor":"intel i9",
+            "model":"MAC-4"
+        },
+        {
+            "pic":"./img/MAC-5.jpg",
+            "title": "Apple MacBook PRO 5",
+            "brand":"apple",
+            "category":"macbook",
+            "RAM":"32 GB",
+            "price":"59999","graphics":"8 GB","storage":"HDD","battery":"Lithium ion battery","processor":"intel i9",
+            "model":"MAC-5"
+        },
+        {
+            "pic":"./img/MAC-6.jfif",
+            "title": "Apple MacBook PRO 6",
+            "brand":"apple",
+            "category":"macbook",
+            "RAM":"16 GB",
+            "price":"59999","graphics":"16 GB","storage":"HDD","battery":"Lithium ion battery","processor":"ryzen 5",
+            "model":"MAC-6"
+        },
+        {
+            "pic":"./img/LN-GM-1.jpg",
+            "title": "LENOVO - IDEALPAD GAMING 1",
+            "brand":"lenovo",
+            "category":"gaming",
+            "RAM":"16 GB",
+            "price":"59999","graphics":"16 GB","storage":"SSDD","battery":"Lithium ion battery","processor":"ryzen 5",
+            "model":"LN-GM-1"
+        },
+        {
+            "pic":"./img/LN-GM-2.jpg",
+            "title": "LENOVO - IDEALPAD GAMING 2",
+            "brand":"lenovo",
+            "category":"gaming",
+            "RAM":"16 GB",
+            "price":"59999","graphics":"16 GB","storage":"HDD","battery":"Lithium ion battery","processor":"ryzen 7",
+            "model":"LN-GM-2"
+        },
+        {
+            "pic":"./img/LN-GM-3.jpeg",
+            "title": "LENOVO - IDEALPAD GAMING 3",
+            "brand":"lenovo",
+            "category":"gaming",
+            "RAM":"16 GB",
+            "price":"59999","graphics":"16 GB","storage":"HDD","battery":"Lithium ion battery","processor":"ryzen 7",
+            "model":"LN-GM-3"
+        },
+        {
+            "pic":"./img/LN-NT-1.jpg",
+            "title": "LENOVO - Notebook 1",
+            "brand":"lenovo",
+            "category":"notebook",
+            "RAM":"32 GB",
+            "price":"59999","graphics":"32 GB","storage":"SSD","battery":"Lithium ion battery","processor":"ryzen 9",
+            "model":"LN-NT-1"
+        },
+        {
+            "pic":"./img/LN-NT-2.jpg",
+            "title": "LENOVO - Notebook 2",
+            "brand":"lenovo",
+            "category":"notebook",
+            "RAM":"32 GB",
+            "price":"59999","graphics":"32 GB","storage":"SSD","battery":"Lithium ion battery","processor":"intel i7",
+            "model":"LN-NT-2"
+        },
+        {
+            "pic":"./img/LN-NT-3.jpg",
+            "title": "LENOVO - Notebook 3",
+            "brand":"lenovo",
+            "category":"notebook",
+            "RAM":"8 GB",
+            "price":"59999","graphics":"32 GB","storage":"HDD","battery":"Lithium ion battery","processor":"intel i7",
+            "model":"LN-NT-3"
+        },
+        {
+            "pic":"./img/LN-TH-1.jpg",
+            "title": "LENOVO - Notebook 4",
+            "brand":"lenovo",
+            "category":"touchscreen",
+            "RAM":"8 GB",
+            "price":"59999","graphics":"4 GB","storage":"HDD","battery":"Lithium ion battery","processor":"intel i5",
+            "model":"LN-TH-1"
+        },{
+            "pic":"./img/LN-TH-2.png",
+            "title": "LENOVO - Notebook 5",
+            "brand":"lenovo",
+            "category":"touchscreen",
+            "RAM":"16 GB",
+            "price":"59999","graphics":"4 GB","storage":"SSD","battery":"Lithium ion battery","processor":"intel i5",
+            "model":"LN-TH-2"
+        },
+
+        {
+            "pic":"./img/DL-GM-1.jpg",
+            "title": "DELL- Alienware Gaming 1",
+            "brand":"dell",
+            "category":"gaming",
+            "RAM":"16 GB",
+            "price":"59999","graphics":"16 GB","storage":"SSD","battery":"Lithium ion battery","processor":"intel i5",
+            "model":"DL-GM-1"
+        },
+        {
+            "pic":"./img/DL-GM-2.jpg",
+            "title": "DELL- Alienware Gaming 2",
+            "brand":"dell",
+            "category":"gaming",
+            "RAM":"32 GB",
+            "price":"59999","graphics":"16 GB","storage":"HDD","battery":"Lithium ion battery","processor":"intel i10",
+            "model":"DL-GM-2"
+        },
+        {
+            "pic":"./img/DL-GM-3.jpg",
+            "title": "DELL - Alienware Gaming 3",
+            "brand":"dell",
+            "category":"gaming",
+            "RAM":"32 GB",
+            "price":"59999","graphics":"8 GB","storage":"HDD","battery":"Lithium ion battery","processor":"intel i10",
+            "model":"DL-GM-3"
+        },
+        {
+            "pic":"./img/DL-GM-4.png",
+            "title": "DELL - Alienware Gaming 4",
+            "brand":"dell",
+            "category":"gaming",
+            "RAM":"16 GB",
+            "price":"59999","graphics":"8 GB","storage":"SSD","battery":"Lithium ion battery","processor":"intel i7",
+            "model":"DL-GM-4"
+        },
+        {
+            "pic":"./img/DL-NT-1.jpg",
+            "title": "DELL - NoteBook 1",
+            "brand":"dell",
+            "category":"notebook",
+            "RAM":"16 GB",
+            "price":"59999","graphics":"4 GB","storage":"SSD","battery":"Lithium ion battery","processor":"intel i7",
+            "model":"DL-NT-1"
+        },
+        {
+            "pic":"./img/DL-NT-3.jpg",
+            "title": "DELL - NoteBook 2",
+            "brand":"dell",
+            "category":"notebook",
+            "RAM":"32 GB",
+            "price":"59999","graphics":"4 GB","storage":"HDDD","battery":"Lithium ion battery","processor":"ryzen 3",
+            "model":"DL-NT-3"
+        },
+        {
+            "pic":"./img/DL-NT-4.jpg",
+            "title": "DELL - NoteBook 3",
+            "brand":"dell",
+            "category":"notebook",
+            "RAM":"32 GB",
+            "price":"59999","graphics":"4 GB","storage":"SSD","battery":"Lithium ion battery","processor":"ryzen 5",
+            "model":"DL-NT-4"
+        },
+        {
+            "pic":"./img/DL-TH-1.jpg",
+            "title": "DELL - NoteBook 4",
+            "brand":"dell",
+            "category":"touchscreen",
+            "RAM":"8 GB",
+            "price":"59999","graphics":"8 GB","storage":"SSD","battery":"Lithium ion battery","processor":"ryzen 5",
+            "model":"DL-TH-1"
+        },
+        {
+            "pic":"./img/DL-TH-2.jpg",
+            "title": "DELL - NoteBook 5",
+            "brand":"dell",
+            "category":"touchscreen",
+            "RAM":"8 GB",
+            "price":"59999","graphics":"8 GB","storage":"HDD","battery":"Lithium ion battery","processor":"ryzen 7",
+            "model":"DL-TH-2"
+        },
+        {
+            "pic":"./img/DL-TH-3.jpg",
+            "title": "DELL - NoteBook 6",
+            "brand":"dell",
+            "category":"touchscreen",
+            "RAM":"32 GB",
+            "price":"59999","graphics":"8 GB","storage":"HDD","battery":"Lithium ion battery","processor":"ryzen 7",
+            "model":"DL-TH-3"
+
+        },
+        {
+            "pic":"./img/DL-TH-4.jpg",
+            "title": "DELL - NoteBook 7",
+            "brand":"dell",
+            "category":"touchscreen",
+            "RAM":"16 GB",
+            "price":"59999","graphics":"8 GB","storage":"SSD","battery":"Lithium ion battery","processor":"ryzen 9",
+            "model":"DL-TH-4"
+        },
+        {
+            "pic":"./img/AS-TH-1.jpg",
+            "title": "ASUS - NoteBook 1",
+            "brand":"asus",
+            "category":"touchscreen",
+            "RAM":"16 GB",
+            "price":"59999","graphics":"8 GB","storage":"SSD","battery":"Lithium ion battery","processor":"ryzen 9",
+            "model":"AS-TH-1"
+        },
+        {
+            "pic":"./img/AS-TH-2.jpg",
+            "title": "ASUS - NoteBook 2",
+            "brand":"asus",
+            "category":"touchscreen",
+            "RAM":"32 GB",
+            "price":"59999","graphics":"8 GB","storage":"SSD","battery":"Lithium ion battery","processor":"intel i9",
+            "model":"AS-TH-2"
+        },
+        {
+            "pic":"./img/AS-TH-3.jpg",
+            "title": "ASUS - NoteBook 3",
+            "brand":"asus",
+            "category":"touchscreen",
+            "RAM":"32 GB",
+            "price":"59999","graphics":"8 GB","storage":"SSD","battery":"Lithium ion battery","processor":"intel i9",
+            "model":"AS-TH-3"
+        },
+        {
+            "pic":"./img/AS-NT-1.jfif",
+            "title": "ASUS - NoteBook 4",
+            "brand":"asus",
+            "category":"notebook",
+            "RAM":"16 GB",
+            "price":"59999","graphics":"16 GB","storage":"HDD","battery":"Lithium ion battery","processor":"intel i9",
+            "model":"AS-NT-1"
+        },
+        {
+            "pic":"./img/AS-NT-2.jpg",
+            "title": "ASUS - NoteBook 5",
+            "brand":"asus",
+            "category":"notebook",
+            "RAM":"16 GB",
+            "price":"59999","graphics":"16 GB","storage":"HDD","battery":"Lithium ion battery","processor":"intel i5",
+            "model":"AS-NT-2"
+        },
+        {
+            "pic":"./img/AS-NT-3.jpg",
+            "title": "ASUS - NoteBook 6",
+            "brand":"asus",
+            "category":"notebook",
+            "RAM":"32 GB",
+            "price":"59999","graphics":"16 GB","storage":"HDD","battery":"Lithium ion battery","processor":"intel i5",
+            "model":"AS-NT-3"
+        },
+        {
+            "pic":"./img/AS-NT-4.png",
+            "title": "ASUS - NoteBook 7",
+            "brand":"asus",
+            "category":"notebook",
+            "RAM":"32 GB",
+            "price":"59999","graphics":"16 GB","storage":"SSD","battery":"Lithium ion battery","processor":"intel i5",
+            "model":"AS-NT-4"
+        },
+        {
+            "pic":"./img/AS-GM-1.png",
+            "title": "ASUS - Gaming Laptop 1",
+            "brand":"asus",
+            "category":"gaming",
+            "RAM":"16 GB",
+            "price":"59999","graphics":"16 GB","storage":"SSD","battery":"Lithium ion battery","processor":"intel i5",
+            "model":"AS-GM-1"
+        },
+        {
+            "pic":"./img/AS-GM-2.jpg",
+            "title": "ASUS - Gaming Laptop 2",
+            "brand":"asus",
+            "category":"gaming",
+            "RAM":"16 GB",
+            "price":"59999","graphics":"4 GB","storage":"SSD","battery":"Lithium ion battery","processor":"intel i7",
+            "model":"AS-GM-2"
+        },
+        {
+            "pic":"./img/AS-GM-3.png",
+            "title": "ASUS - Gaming Laptop 3",
+            "brand":"asus",
+            "category":"gaming",
+            "RAM":"16 GB",
+            "price":"59999","graphics":"4 GB","storage":"HDD","battery":"Lithium ion battery","processor":"intel i7",
+            "model":"AS-GM-3"
+        },
+        {
+            "pic":"./img/AS-GM-5.png",
+            "title": "ASUS - Gaming Laptop 4",
+            "brand":"asus",
+            "category":"gaming",
+            "RAM":"16 GB",
+            "price":"59999","graphics":"4 GB","storage":"HDD","battery":"Lithium ion battery","processor":"intel i7",
+            "model":"AS-GM-5"
+        },
+        {
+            "pic":"./img/AS-GM-6.png",
+            "title": "ASUS - Gaming Laptop 5",
+            "brand":"asus",
+            "category":"gaming",
+            "RAM":"32 GB",
+            "price":"59999","graphics":"8 GB","storage":"HDD","battery":"Lithium ion battery","processor":"ryzen 5",
+            "model":"AS-GM-6"
+        },
+        {
+            "pic":"./img/AC-GM-1.jpg",
+            "title": "ACER - Gaming Laptop 1",
+            "brand":"acer",
+            "category":"gaming",
+            "RAM":"32 GB",
+            "price":"59999","graphics":"8 GB","storage":"SSD","battery":"Lithium ion battery","processor":"ryzen 5",
+            "model":"AC-GM-1"
+        },
+        {
+            "pic":"./img/AC-GM-2.jpg",
+            "title": "ACER - Gaming Laptop 2",
+            "brand":"acer",
+            "category":"gaming",
+            "RAM":"16 GB",
+            "price":"59999","graphics":"8 GB","storage":"SSD","battery":"Lithium ion battery","processor":"ryzen 5",
+            "model":"AC-GM-2"
+        },
+        {
+            "pic":"./img/AC-GM-3.jpg",
+            "title": "ACER - Gaming Laptop 3",
+            "brand":"acer",
+            "category":"gaming",
+            "RAM":"16 GB",
+            "price":"59999","graphics":"8 GB","storage":"SSD","battery":"Lithium ion battery","processor":"ryzen 7",
+            "model":"AC-GM-3"
+        },
+        {
+            "pic":"./img/AC-GM-4.jpeg",
+            "title": "ACER - Gaming Laptop 4",
+            "brand":"acer",
+            "category":"gaming",
+            "RAM":"32 GB",
+            "price":"59999","graphics":"16 GB","storage":"HDD","battery":"Lithium ion battery","processor":"ryzen 7",
+            "model":"AC-GM-4"
+        },
+        {
+            "pic":"./img/AC-NT-1.jpg",
+            "title": "ACER - NoteBook 1",
+            "brand":"acer",
+            "category":"notebook",
+            "RAM":"32 GB",
+            "price":"59999","graphics":"16 GB","storage":"HDD","battery":"Lithium ion battery","processor":"ryzen 9",
+            "model":"AC-NT-1"
+        },
+        {
+            "pic":"./img/AC-NT-2.jfif",
+            "title": "ACER - NoteBook 3",
+            "brand":"acer",
+            "category":"notebook",
+            "RAM":"16 GB",
+            "price":"59999","graphics":"16 GB","storage":"HDD","battery":"Lithium ion battery","processor":"ryzen 9",
+            "model":"AC-NT-2"
+        },
+        {
+            "pic":"./img/AC-NT-3.jpg",
+            "title": "ACER - NoteBook 4",
+            "brand":"acer",
+            "category":"notebook",
+            "RAM":"16 GB",
+            "price":"59999","graphics":"4 GB","storage":"SSD","battery":"Lithium ion battery","processor":"ryzen 5",
+            "model":"AC-NT-3"
+        },
+        {
+            "pic":"./img/AC-NT-4.jpg",
+            "title": "ACER - NoteBook 5",
+            "brand":"acer",
+            "category":"notebook",
+            "RAM":"32 GB",
+            "price":"59999","graphics":"4 GB","storage":"SSD","battery":"Lithium ion battery","processor":"ryzen 5",
+            "model":"AC-NT-4"
+        },
+        {
+            "pic":"./img/AC-TH-4.jpg",
+            "title": "ACER - NoteBook 9",
+            "brand":"acer",
+            "category":"touchscreen",
+            "RAM":"32 GB",
+            "price":"59999","graphics":"4 GB","storage":"HDD","battery":"Lithium ion battery","processor":"intel i5",
+            "model":"AC-TH-4"
+        },
+        {
+            "pic":"./img/HP-NT-3.png",
+            "title": "HP - NoteBook 1",
+            "brand":"hp",
+            "category":"ryzen",
+            "RAM":"8 GB",
+            "price":"59999","graphics":"8 GB","storage":"HDD","battery":"Lithium ion battery"
+        },
+        {
+            "pic":"./img/HP-NT-4.png",
+            "title": "HP - NoteBook 2",
+            "brand":"hp",
+            "category":"ryzen",
+            "RAM":"8 GB",
+            "price":"59999","graphics":"8 GB","storage":"SSD","battery":"Lithium ion battery"
+        },
+        {
+            "pic":"./img/HP-GM-1.jpg",
+            "title": "HP - Pavillion Gaming 1",
+            "brand":"hp",
+            "category":"ryzen",
+            "type":"Gaming",
+            "price":"59999","graphics":"8 GB","storage":"SSD","battery":"Lithium ion battery"
+        },
+        {
+            "pic":"./img/AC-GM-4.jpeg",
+            "title": "ACER - Gaming Laptop",
+            "brand":"acer",
+            "category":"ryzen",
+            "RAM":"8 GB",
+            "price":"59999","graphics":"6 GB","storage":"HDD","battery":"Lithium ion battery"
+        },
+        {
+            "pic":"./img/AC-NT-1.jpg",
+            "title": "ACER - NoteBook",
+            "brand":"acer",
+            "category":"ryzen",
+            "RAM":"16 GB",
+            "price":"59999","graphics":"6 GB","storage":"HDD","battery":"Lithium ion battery"
+        },
+        {
+            "pic":"./img/AC-NT-1.jpg",
+            "title": "ACER - NoteBook",
+            "brand":"acer",
+            "category":"ryzen",
+            "RAM":"16 GB",
+            "price":"59999","graphics":"6 GB","storage":"SSD","battery":"Lithium ion battery"
+        },
+        {
+            "pic":"./img/AS-GM-5.png",
+            "title": "ASUS - Gaming Laptop",
+            "brand":"asus",
+            "category":"ryzen",
+            "RAM":"32 GB",
+            "price":"59999","graphics":"6 GB","storage":"SSD","battery":"Lithium ion battery"
+        },
+        {
+            "pic":"./img/AS-GM-6.png",
+            "title": "ASUS - Gaming Laptop",
+            "brand":"asus",
+            "category":"intel",
+            "RAM":"32 GB",
+            "price":"59999","graphics":"6 GB","storage":"HHDD","battery":"Lithium ion battery"
+        },
+        {
+            "pic":"./img/AC-GM-1.jpg",
+            "title": "ACER - Gaming Laptop 3",
+            "brand":"acer",
+            "category":"intel",
+            "RAM":"16 GB",
+            "price":"59999","graphics":"6 GB","storage":"SDD","battery":"Lithium ion battery"
+        },
+        {
+            "pic":"./img/LN-TH-1.jpg",
+            "title": "LENOVO - Notebook",
+            "brand":"lenovo",
+            "category":"intel",
+            "RAM":"16 GB",
+            "price":"59999","graphics":"4 GB","storage":"SDD","battery":"Lithium ion battery"
+        },{
+            "pic":"./img/LN-TH-2.png",
+            "title": "LENOVO - Notebook",
+            "brand":"lenovo",
+            "category":"intel",
+            "RAM":"32 GB",
+            "price":"59999","graphics":"4 GB","storage":"HDD","battery":"Lithium ion battery"
+        },
+
+        {
+            "pic":"./img/DL-GM-1.jpg",
+            "title": "DELL- Alienware Gaming",
+            "brand":"dell",
+            "category":"intel",
+            "RAM":"32 GB",
+            "price":"59999","graphics":"16 GB","storage":"HDD","battery":"Lithium ion battery"
+        },
+        {
+            "pic":"./img/DL-GM-2.jpg",
+            "title": "DELL- Alienware Gaming",
+            "brand":"dell",
+            "category":"intel",
+            "RAM":"16 GB",
+            "price":"59999","graphics":"16 GB","storage":"HDD","battery":"Lithium ion battery"
+        },
+        {
+            "pic":"./img/AC-TH-2.jpg",
+            "title": "ACER - NoteBook",
+            "brand":"acer",
+            "category":"intel",
+            "RAM":"16 GB",
+            "price":"59999","graphics":"4 GB","storage":"HDD","battery":"Lithium ion battery"
+        }
+        
+    ]
+}

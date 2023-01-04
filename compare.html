@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Compare</title>
+    <link href="style.css" type="text/css" rel="stylesheet">
+    <link href="compare.css" type="text/css" rel="stylesheet">
+
+
+</head>
+<body>
+    <div class="header">
+        <div class="logo">YO LAPTOPS</div>
+      </div>
+    <div id="compare" class="compare">
+        <div class="compare1">
+            <ul class="dropdown">
+                <li><p class="select">Select Product</p>
+                    <ul>
+                        <li><p>ASUS</p>
+                            <ul>
+                                <li><p>notebook</p>
+                                    <ul>
+                                        <li><div class="brand">
+                                            <form class="form1" id="f1">
+                                                <input type="checkbox" id="sg" name="AS-NT-1" class="check" value="Bat" onclick="ValidateBrandSelection()" >
+                                                <label for="bat1"> ASUS NOTEBOOK 1</label><br>
+                                                <input type="checkbox" id="gm" name="AS-NT-2" class="check" value="Bat" onclick="ValidateBrandSelection()">
+                                                <label for="bat2"> ASUS NOTEBOOK 2</label><br>
+                                                <input type="checkbox" id="ss" name="AS-NT-3" class="check" value="Bat" onclick="ValidateBrandSelection()">
+                                                <label for="bat3"> ASUS NOTEBOOK 3</label><br>
+                                                <input type="checkbox" id="mrf" name="AS-NT-4" class="check" value="Bat" onclick="ValidateBrandSelection()">
+                                                <label for="bat4"> ASUS NOTEBOOK 4</label><br><br>
+                                              </form>
+                                        </div></li>
+                                    </ul>
+                                </li>
+                                <li><p>Gaming</p>
+                                    <ul>
+                                        <li><div class="brand">
+                                            <form class="form1" id="f2">
+                                                <input type="checkbox" id="sg" name="AS-GM-1" class="check" value="Bat" onclick="ValidateBrandSelection()" >
+                                                <label for="bat1"> ASUS TUF 1</label><br>
+                                                <input type="checkbox" id="gm" name="AS-GM-2" class="check" value="Bat" onclick="ValidateBrandSelection()">
+                                                <label for="bat2"> ASUS ROG1</label><br>
+                                                <input type="checkbox" id="ss" name="AS-GM-3" class="check" value="Bat" onclick="ValidateBrandSelection()">
+                                                <label for="bat3"> ASUS ROG2</label><br>
+                                                <input type="checkbox" id="ss" name="AS-GM-4" class="check" value="Bat" onclick="ValidateBrandSelection()">
+                                                <label for="bat3"> ASUS TUF 2</label><br><br>
+                                              </form>
+                                        </div></li>
+
+                                    </ul>
+                                </li>
+                                <li><p>Touchscreen</p>
+                                    <ul>
+                                        <li><div class="brand">
+                                            <form class="form1" id="f3">
+                                                <input type="checkbox" id="sg" name="AS-TH-1" class="check" value="Bat" onclick="ValidateBrandSelection()" >
+                                                <label for="bat1"> ASUS PRO 1</label><br>
+                                                <input type="checkbox" id="gm" name="AS-TH-2" class="check" value="Bat" onclick="ValidateBrandSelection()">
+                                                <label for="bat2"> ASUS PRO 2</label><br>
+                                                <input type="checkbox" id="ss" name="AS-TH-3" class="check" value="Bat" onclick="ValidateBrandSelection()">
+                                                <label for="bat3"> ASUS PRO 3</label><br><br>
+                                              </form>
+                                        </div></li>
+
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                        <li><p>ACER</p>
+                            <ul>
+                                <li><p>notebook</p>
+                                    <ul>
+                                        <li><div class="brand">
+                                            <form class="form1" id="f4">
+                                                <input type="checkbox" id="sg" name="AC-NT-1" class="check" value="Bat" onclick="ValidateBrandSelection()" >
+                                                <label for="bat1"> ACER NOTEBOOK 1</label><br>
+                                                <input type="checkbox" id="gm" name="AC-NT-2" class="check" value="Bat" onclick="ValidateBrandSelection()">
+                                                <label for="bat2"> ACER NOTEBOOK 2</label><br>
+                                                <input type="checkbox" id="ss" name="AC-NT-3" class="check" value="Bat" onclick="ValidateBrandSelection()">
+                                                <label for="bat3"> ACER NOTEBOOK 3</label><br><br>
+                                              </form>
+                                        </div></li>
+                                    
+                                    </ul>
+                                </li>
+                                <li><p>Gaming</p>
+                                    <ul>
+                                        <li><div class="brand">
+                                            <form class="form1" id="f5">
+                                                <input type="checkbox" id="sg" name="AC-GM-1" class="check" value="Bat" onclick="ValidateBrandSelection()" >
+                                                <label for="bat1"> ACER PREDATOR 1</label><br>
+                                                <input type="checkbox" id="gm" name="AC-GM-2" class="check" value="Bat" onclick="ValidateBrandSelection()">
+                                                <label for="bat2"> ACER PREDATOR 2</label><br>
+                                                <input type="checkbox" id="ss" name="AC-GM-3" class="check" value="Bat" onclick="ValidateBrandSelection()">
+                                                <label for="bat3"> ACER PREDATOR 3</label><br><br>
+                                              </form>
+                                        </div></li>
+                                        
+                                    </ul>
+                                </li>
+                                <li><p>Touchscreen</p>
+                                    <ul>
+                                        <li><div class="brand">
+                                            <form class="form1" id="f6">
+                                                <input type="checkbox" id="sg" name="AC-TH-1" class="check" value="Bat" onclick="ValidateBrandSelection()" >
+                                                <label for="bat1"> ACER PRO 1</label><br>
+                                                <input type="checkbox" id="gm" name="AC-TH-2" class="check" value="Bat" onclick="ValidateBrandSelection()">
+                                                <label for="bat2"> ACER PRO 2</label><br>
+                                                <input type="checkbox" id="ss" name="AC-TH-3" class="check" value="Bat" onclick="ValidateBrandSelection()">
+                                                <label for="bat3"> ACER PRO 3</label><br><br>
+                                              </form>
+                                        </div></li>
+                                        
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                        <li><p>DELL</p>
+                            <ul>
+                                <li><p>notebook</p>
+                                    <ul>
+                                        <li><div class="brand">
+                                            <form class="form1" id="f7">
+                                                <input type="checkbox" id="sg" name="DL-NT-1" class="check" value="Bat" onclick="ValidateBrandSelection()" >
+                                                <label for="bat1"> DELL NOTEBOOK 1</label><br>
+                                                <input type="checkbox" id="gm" name="DL-NT-3" class="check" value="Bat" onclick="ValidateBrandSelection()">
+                                                <label for="bat2"> DELL NOTEBOOK 2</label><br>
+                                                <input type="checkbox" id="ss" name="DL-NT-4" class="check" value="Bat" onclick="ValidateBrandSelection()">
+                                                <label for="bat3"> DELL NOTEBOOK 3</label><br><br>
+                                              </form>
+                                        </div></li>
+                                        
+                                    </ul>
+                                </li>
+                                <li><p>Gaming</p>
+                                    <ul>
+                                        <li><div class="brand">
+                                            <form class="form1" id="f8">
+                                                <input type="checkbox" id="sg" name="DL-GM-1" class="check" value="Bat" onclick="ValidateBrandSelection()" >
+                                                <label for="bat1"> DELL GAMING 1</label><br>
+                                                <input type="checkbox" id="gm" name="DL-GM-2" class="check" value="Bat" onclick="ValidateBrandSelection()">
+                                                <label for="bat2"> DELL GAMING 1</label><br>
+                                                <input type="checkbox" id="ss" name="DL-GM-3" class="check" value="Bat" onclick="ValidateBrandSelection()">
+                                                <label for="bat3"> DELL GAMING 1</label><br><br>
+                                              </form>
+                                        </div></li>
+                                        
+                                    </ul>
+                                </li>
+                                <li><p>Touchscreen</p>
+                                    <ul>
+                                        <li><div class="brand">
+                                            <form class="form1" id="f9">
+                                                <input type="checkbox" id="sg" name="DL-TH-1" class="check" value="Bat" onclick="ValidateBrandSelection()" >
+                                                <label for="bat1"> DELL PRO 1</label><br>
+                                                <input type="checkbox" id="gm" name="DL-TH-2" class="check" value="Bat" onclick="ValidateBrandSelection()">
+                                                <label for="bat2"> DELL PRO 2</label><br>
+                                                <input type="checkbox" id="ss" name="DL-TH-3" class="check" value="Bat" onclick="ValidateBrandSelection()">
+                                                <label for="bat3"> DELL PRO 3</label><br><br>
+                                              </form>
+                                        </div></li>
+                                        
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                        <li><p>HP</p>
+                            <ul>
+                                <li><p>notebook</p>
+                                    <ul>
+                                        <li><div class="brand">
+                                            <form class="form1" id="f10">
+                                                <input type="checkbox" id="sg" name="HP-NT-1" class="check" value="Bat" onclick="ValidateBrandSelection()" >
+                                                <label for="bat1"> HP NOTEBOOK 1</label><br>
+                                                <input type="checkbox" id="gm" name="HP-NT-2" class="check" value="Bat" onclick="ValidateBrandSelection()">
+                                                <label for="bat2"> HP NOTEBOOK 2</label><br>
+                                                <input type="checkbox" id="ss" name="HP-NT-3" class="check" value="Bat" onclick="ValidateBrandSelection()">
+                                                <label for="bat3"> HP NOTEBOOK 3</label><br>
+                                              </form>
+                                        </div></li>
+                                       
+                                    </ul>
+                                </li>
+                                <li><p>Gaming</p>
+                                    <ul>
+                                        <li><div class="brand">
+                                            <form class="form1" id="f11">
+                                                <input type="checkbox" id="sg" name="HP-GM-1" class="check" value="Bat" onclick="ValidateBrandSelection()" >
+                                                <label for="bat1"> HP PAVILION 1</label><br>
+                                                <input type="checkbox" id="gm" name="HP-GM-2" class="check" value="Bat" onclick="ValidateBrandSelection()">
+                                                <label for="bat2"> HP PAVILION 2</label><br>
+                                                <input type="checkbox" id="ss" name="AS-NT-3" class="check" value="Bat" onclick="ValidateBrandSelection()">
+                                                <label for="bat3"> HP PAVILION 3</label><br><br>
+                                              </form>
+                                        </div></li>
+                                        
+                                    </ul>
+                                </li>
+                                <li><p>Touchscreen</p>
+                                    <ul>
+                                        <li><div class="brand">
+                                            <form class="form1" id="f12">
+                                                <input type="checkbox" id="sg" name="HP-TH-1" class="check" value="Bat" onclick="ValidateBrandSelection()" >
+                                                <label for="bat1"> HP PROFESSIONAL</label><br>
+                                                <input type="checkbox" id="gm" name="HP-TH-2" class="check" value="Bat" onclick="ValidateBrandSelection()">
+                                                <label for="bat2"> HP PROFESSIONAL 2</label><br><br>
+                                              </form>
+                                        </div></li>
+                                        
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                        <li><p>LENOVO</p>
+                            <ul>
+                                <li><p>notebook</p>
+                                    <ul>
+                                        <li><div class="brand">
+                                            <form class="form1" id="f13">
+                                                <input type="checkbox" id="sg" name="LN-NT-1" class="check" value="Bat" onclick="ValidateBrandSelection()" >
+                                                <label for="bat1"> LENOVO NOTEBOOK 1</label><br>
+                                                <input type="checkbox" id="gm" name="LN-NT-2" class="check" value="Bat" onclick="ValidateBrandSelection()">
+                                                <label for="bat2"> LENOVO NOTEBOOK 2</label><br>
+                                                <input type="checkbox" id="ss" name="LN-NT-3" class="check" value="Bat" onclick="ValidateBrandSelection()">
+                                                <label for="bat3"> LENOVO NOTEBOOK 3</label><br><br>
+                                              </form>
+                                        </div></li>
+                                        
+                                    </ul>
+                                </li>
+                                <li><p>Gaming</p>
+                                    <ul>
+                                        <li><div class="brand">
+                                            <form class="form1" id="f14">
+                                                <input type="checkbox" id="sg" name="LN-GM-1" class="check" value="Bat" onclick="ValidateBrandSelection()" >
+                                                <label for="bat1"> LENOVO GAMING 1</label><br>
+                                                <input type="checkbox" id="gm" name="LN-GM-2" class="check" value="Bat" onclick="ValidateBrandSelection()">
+                                                <label for="bat2"> LENOVO GAMING 1</label><br>
+                                                <input type="checkbox" id="ss" name="LN-GM-3" class="check" value="Bat" onclick="ValidateBrandSelection()">
+                                                <label for="bat3"> LENOVO GAMING 1</label><br><br>
+                                              </form>
+                                        </div></li>
+                                        
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                        <li><p>APPLE</p>
+                            <ul>
+                                <li><p>MACBOOK</p>
+                                    <ul>
+                                        <li><div class="brand">
+                                            <form class="form1" id="f15">
+                                                <input type="checkbox" id="sg" name="MAC-1" class="check" value="Bat" onclick="ValidateBrandSelection()" >
+                                                <label for="bat1"> MACBOOK PRO 1</label><br>
+                                                <input type="checkbox" id="gm" name="MAC-2" class="check" value="Bat" onclick="ValidateBrandSelection()">
+                                                <label for="bat2"> MACBOOK PRO 2</label><br>
+                                                <input type="checkbox" id="ss" name="MAC-3" class="check" value="Bat" onclick="ValidateBrandSelection()">
+                                                <label for="bat3"> MACBOOK PRO 3</label><br>
+                                                <input type="checkbox" id="mrf" name="MAC-4" class="check" value="Bat" onclick="ValidateBrandSelection()">
+                                                <label for="bat4"> MACBOOK PRO 4</label><br>
+                                                <input type="checkbox" id="ceat" name="MAC-5" class="check"value="Bat" onclick="ValidateBrandSelection()">
+                                                <label for="bat5"> MACBOOK PRO 5</label><br>
+                                                <input type="checkbox" id="bas" name="MAC-6" class="check" value="Bat" onclick="ValidateBrandSelection()">
+                                                <label for="bat6"> MACBOOK PRO 6</label><br><br>
+                                              </form>
+                                        </div></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+        
+    </div>
+    <div class="space">
+        <div class="space0">
+            <div class="back"><a href="./index.html">BACK</a></div>
+            <div class="noimg"></div>
+            <div class="lapName"> Name</div>
+            <div class="lapName"> model Number</div>
+            <div class="lapName"> price</div>
+            <div class="lapName"> RAM</div>
+            <div class="lapName"> Processor</div>
+            <div class="lapName"> Battery</div>
+            <div class="lapName"> Laptop type</div>
+            <div class="lapName"> Storage type</div>
+            <div class="lapName"> Graphics card</div>
+
+        </div>
+        <div class="space1" id="space1"></div>
+    </div> 
+    <script src="compare.js"></script>
+</body>
+</html>

@@ -1,0 +1,212 @@
+.header{
+    background-color:cornflowerblue;
+    height: 80px;
+    position: fixed;
+    z-index: 10; 
+    left: 0;
+    top: 0%;
+    width: 100%;
+}
+.logo{
+    text-align: center;
+    padding: 25px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size:xx-large;
+    font-weight: bold;
+    font-size: 40px;
+}
+body{
+  background-color: #fff;  
+} 
+.navbar{
+    margin-top: 80px;
+    display: flex;
+    background-color: #fff;  
+    position: fixed;
+    z-index: 8; 
+    left: 0;
+    top: 0%;
+    width: 100%;
+    height:80px
+}
+.topdisplay{
+    margin-top: 200px;
+}
+.lhs-navbar{
+    flex: 1;
+}
+.center-navbar{
+    flex: 2;
+}
+.rhs-navbar{
+    flex:1;
+}
+.rhs-navbar > {
+    display: flex;
+}
+.home,.brand{
+    padding: 10px;
+    font-weight: bolder ;
+}
+.comparePage{
+    margin-top: 25px;
+    text-align: center;
+    
+}
+.comparePage > a{
+    padding: 10px;
+    text-decoration: none;
+    color: black;
+    font-weight: bolder;
+}
+
+.search-container{
+    display: flex;
+}
+.search-container > img{
+    width: 20px;
+    height: 20px;
+    margin-top: 25px;
+    margin-left: 10px;
+}
+.search-box{
+    border: none;
+    border-bottom: 0.1px solid black;
+    margin: 5px 0px;
+    width: 95%;
+    background: transparent;
+    height: 50px;
+    font-weight: 500;
+    transition: .5s;
+}
+.display1{
+    margin-top: 20px;
+    margin-left: 50px;
+
+}
+.display2{
+    padding: 20px;
+}
+.product-type{
+    text-align: center;
+    margin-top: 30px;
+    font-weight: bolder;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.product-type > p{
+    font-size: 30px;
+}
+.category{
+    display: flex;
+    padding: 30px;
+    width: 50%;
+    color: darkorange;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.category > li{
+    padding-right: 20px ;
+}
+.nav:hover{
+    cursor: pointer;
+}
+
+.pic{
+    height: 215px;
+    width: 250px;
+}
+.name {
+    color: black;
+    padding: 10px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.name3{
+    color: black;
+    padding: 10px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    max-width: 150px;
+}
+.show-data{
+    width: 100%;
+    object-fit: contain;
+    min-height: 350px;
+    max-height: 400px;
+    margin-right: 10px;
+    transition: transform 450ms;
+    margin-left: 10px;
+    margin-bottom: 20px;
+}
+.show-data > button, .details > button{
+    margin-top: 20px;
+    padding: 5px;
+}
+.show-data2{    
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 15px;
+    margin-bottom: 50px;
+    float: left;
+    object-fit: contain;
+    min-height: 350px;
+    max-height: 400px;
+    transition: transform 450ms;
+    border-radius: 2%;  
+}
+.details{
+    text-align: center;
+}
+.content{
+    margin-top: 10px;
+    display: flex;
+    overflow-y: hidden;
+    overflow-x: scroll;
+    padding: 20px;
+}
+.show-data:hover{
+    transform: scale(1.04);
+}
+.show-data2:hover{
+    transform: scale(1.04);
+}
+.content::-webkit-scrollbar{
+    display: none;
+}
+
+
+@media only screen and (max-width: 450px) {
+  .navbar{
+    display: block;
+    background-color: white;
+    height: 200px;
+  }
+  .lhs-navbar{
+      margin-left: 100px;
+  }
+  .rhs-navbar{
+      width: 100%
+  }
+  .search-box{
+      width: 80%;
+      margin-top: 5px;
+      margin-left: 30px;
+      margin-bottom: 10px;
+  }
+  .show-data2{
+      margin-left: 10px;
+      margin-right: 10px;
+      margin-top: 0px;
+      padding-bottom: 10px;
+  }
+  .name3{
+      width: 120px;
+  }
+  .pic{
+    height: 140px;
+    width: 140px;
+  }
+  .topdisplay{
+      margin-top: 350px;
+  }
+}

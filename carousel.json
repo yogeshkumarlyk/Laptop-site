@@ -1,0 +1,24 @@
+{
+    "carousel": [
+        {
+            "pic":"./IMG/BANNER-1.jpg",
+            "category":"banner"
+        },
+        {
+            "pic":"./img/BANNER-2.jpg",
+            "category":"banner"
+        },
+        {
+            "pic":"./img/BANNER-3.jpg",
+            "category":"banner"
+        },
+        {
+            "pic":"./img/BANNER-5.jpg",
+            "category":"banner"
+        },
+        {   
+            "pic":"./img/BANNER-6.jpg",
+            "category":"banner"
+        }
+    ]
+}

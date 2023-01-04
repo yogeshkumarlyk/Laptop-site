@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" type="text/css" rel="stylesheet">
+    <link href="reset.css" type="text/css" rel="stylesheet">
+    <link href="carousel.css" type="text/css" rel="stylesheet"> 
+    <link href="dropdown.css" type="text/css" rel="stylesheet"> 
+    
+    <title>YO LAPTOPS</title>
+</head>
+<body>
+    <div class="header">
+      <div class="logo">YO LAPTOPS</div>
+    </div>
+    <div class="navbar">
+      <div class="lhs-navbar">
+        <div class="dropdown">
+          <span id="nav" class="home" onclick="selection()">HOME</span>
+          <span class="brand">BRAND </span>
+          <div class="dropdown-content">
+          <p id="nav1" class="brandName" onclick="selection1()" >ASUS</p>
+          <p id="nav2" class="brandName" onclick="selection2()">DELL</p>
+          <p id="nav3" class="brandName" onclick="selection3()">HP</p>
+          <p id="nav4" class="brandName" onclick="selection4()">ACER</p>
+          <p id="nav5" class="brandName" onclick="selection5()">APPLE</p>
+          </div>
+        </div>
+      </div>
+      <div class="center-navbar">
+        <div class="search-container">
+          <input type="text" class="search-box" id="search"  onchange="search()">
+          <img src="https://images-na.ssl-images-amazon.com/images/I/41gYkruZM2L.png">
+        </div>
+      </div>
+      <div class="rhs-navbar">  
+        <div class="comparePage">
+        <a href="./compare.html">COMPARE PRODUCTS</a>
+        </div>
+      </div>
+    </div>
+    <div class="topdisplay" id="topdisplay">
+      <div id="display1" class="display1">
+
+      </div>
+    </div>
+
+    <div class="carousel-container">
+      <div class="carousel" id="car">
+
+      </div>
+    </div>
+
+    <div class="display2" id="display2">
+      <div class="visual"  id="visual">
+        <div class="product-type"   id="notebook">
+          <p>NOTEBOOKS</p>
+          <div class="content" id="content">
+          </div>
+        </div> 
+        <div class="product-type" id="gaming">
+          <p>GAMING LAPTOPS</p>
+          <div class="content" id="content2">
+          </div>
+        </div> 
+        <div class="product-type" id="touchscreen">
+          <p>TOUCH SCREEN LAPTOPS</p>
+          <div class="content" id="content3">
+          </div>
+        </div> 
+        <div class="product-type" id="macbook">
+          <p>MACBOOKS</p>
+          <div class="content" id="content4">
+          </div>
+        </div>
+        <div class="product-type" id="intel">
+          <p>INTEL POWERED LAPTOPS</p>
+          <div class="content" id="content5">
+          </div>
+        </div>
+        <div class="product-type" id="ryzen">
+          <p>RYZEN POWERED LAPTOPS</p>
+          <div class="content" id="content6">
+          </div>
+        </div>
+      </div>      
+    </div> 
+    <div class="compare" id="compare">
+
+    </div>
+    <script src="script.js"></script>
+    <script src="carousel.js"></script> 
+</body>
+
+</html>
